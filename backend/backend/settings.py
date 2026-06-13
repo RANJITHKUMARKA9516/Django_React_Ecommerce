@@ -156,3 +156,5 @@ SIMPLE_JWT = {
     'BLACKLIST_AFTER_ROTATION': True,
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
+
+STATIC_ROOT = BASE_DIR / "staticfiles"
